@@ -27,7 +27,6 @@ import type {SharedStylePropsArgT} from '../popover/types.js';
  */
 export const Body = styled<SharedStylePropsArgT>('div', props => ({
   ...getBodyStyles(props),
-  // Tooltip
   backgroundColor: props.$theme.colors.tooltipBackground,
   boxShadow: props.$theme.lighting.shadow400,
   color: props.$theme.colors.tooltipText,
